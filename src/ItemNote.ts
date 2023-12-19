@@ -13,6 +13,7 @@ import {
   URLToPocketItemNoteIndex,
 } from "./data/URLToPocketItemNoteIndex";
 import {
+  PocketItemStatus,
   PocketTags,
   pocketTagsToPocketTagList,
   SavedPocketItem,
@@ -212,6 +213,7 @@ const generateInitialItemNoteContents = (
     ["tags", (item) => hashtagSubstitutor(true)(item.tags)],
     ["tags-no-hash", (item) => hashtagSubstitutor(false)(item.tags)],
     ["pocket-url", (item) => getPocketItemPocketURL(item)],
+    ["status", (item) => PocketItemStatus[item.status] ?? "Unknown"],
     [
       "image",
       (item) => {

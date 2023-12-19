@@ -1,6 +1,6 @@
 export type PocketItemId = number;
 
-enum PocketItemStatus {
+export enum PocketItemStatus {
   Unread,
   Archived,
   Deleted,
