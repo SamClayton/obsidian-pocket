@@ -1,10 +1,11 @@
 {
-  "id": "obsidian-pocket",
-  "name": "Pocket",
-  "version": "0.8.2",
+  "id": "obsidian-pocketry",
+  "name": "Pocketry",
+  "version": "0.8.3",
   "minAppVersion": "0.12.11",
   "description": "Access your Pocket reading list entries and create notes for them easily",
-  "author": "Nimalan Mahendran",
-  "authorUrl": "https://twitter.com/nimalan",
-  "isDesktopOnly": false
+  "author": "Sam Clayton",
+  "authorUrl": "https://github.com/SamClayton",
+  "isDesktopOnly": false,
+  "fundingUrl": "https://venmo.com/SamMClayton"
 }

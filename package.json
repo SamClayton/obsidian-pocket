@@ -1,6 +1,6 @@
 {
   "name": "obsidian-pocket-plugin",
-  "version": "0.8.1",
+  "version": "0.8.3",
   "description": "This is a plugin for Obsidian (https://obsidian.md) that allows for easy access to your Pocket (https://getpocket.com) list.",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,19 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "contributors": [
+    {
+      "name": "Nimalan Mahendran",
+      "url": "https://twitter.com/nimalan"
+    },{
+      "name": "spinosae",
+      "url": "https://github.com/spinosae"
+    },{
+      "name": "Sam Clayton",
+      "email": "sam.clayton@gmail.com",
+      "url": "https://github.com/SamClayton"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.0",
